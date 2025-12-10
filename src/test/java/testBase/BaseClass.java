@@ -7,10 +7,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
-import net.bytebuddy.asm.Advice.This;
+import org.testng.annotations.Parameters;
 
 public class BaseClass {
 	
@@ -18,16 +18,24 @@ public class BaseClass {
 	public Logger logger;
 	
 	@BeforeClass
-	public void setup() {
+	@Parameters({"os", "browser"})
+	public void setup(String os, String Br) {
 		System.out.println("Starting point");
 		logger = LogManager.getLogger(this.getClass());
-		driver = new ChromeDriver();
+		switch(br) {
+		case "chrome": driver = new ChromeDriver(); break;
+		case "firefox": driver = new FirefoxDriver(); break;
+		default : System.out.println("Invalid browser"); return;
+		}
+		
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("http://localhost/opencart/");
+		driver.get("http://localhost/opencart/upload/");
 		driver.manage().window().maximize();
 	}
 	@AfterClass
 	public void tearDown() {
+		System.out.println("Ending point");
 		driver.quit();
 	}
 	

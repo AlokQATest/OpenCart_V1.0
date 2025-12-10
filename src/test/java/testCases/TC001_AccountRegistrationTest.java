@@ -1,5 +1,7 @@
 package testCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert; 
 
 import org.testng.annotations.Test;
@@ -11,7 +13,7 @@ import testBase.BaseClass;
 public class TC001_AccountRegistrationTest extends BaseClass{
 	
 	
-	@Test
+	@Test 
 	public void verify_account_registration() {
 		logger.info("Starting the acc_reg method");
 		try {
@@ -33,11 +35,17 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		
 		String confirmMsg = arp.getConfirmationMsg();
 		logger.info("Validating expected message");
-		Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
-		}catch(Exception e) {
-			logger.info("Error");
+		if(confirmMsg.equals("Your Account Has Been Created!!")) {
+			AssertJUnit.assertTrue(true);
+		}
+		else {
+			logger.error("Error");
 			logger.debug("Debug");
-			Assert.fail();
+			AssertJUnit.assertTrue(false);
+		}
+		
+		}catch(Exception e) {
+			AssertJUnit.fail();
 		}
 		logger.info("Test finished");
 	
