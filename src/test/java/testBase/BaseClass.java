@@ -19,7 +19,7 @@ public class BaseClass {
 	
 	@BeforeClass
 	@Parameters({"os", "browser"})
-	public void setup(String os, String Br) {
+	public void setup(String os, String br) {
 		System.out.println("Starting point");
 		logger = LogManager.getLogger(this.getClass());
 		switch(br) {
@@ -27,7 +27,6 @@ public class BaseClass {
 		case "firefox": driver = new FirefoxDriver(); break;
 		default : System.out.println("Invalid browser"); return;
 		}
-		
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://localhost/opencart/upload/");
