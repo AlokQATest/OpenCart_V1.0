@@ -1,7 +1,24 @@
-2025-12-10 14:15:14 INFO  TC001_AccountRegistrationTest:16 - Starting the acc_reg method
-2025-12-10 14:15:14 INFO  TC001_AccountRegistrationTest:20 - Clicked on My Account
-2025-12-10 14:15:14 INFO  TC001_AccountRegistrationTest:22 - Clicked on Register
-2025-12-10 14:15:14 INFO  TC001_AccountRegistrationTest:25 - Filling details
-2025-12-10 14:15:15 INFO  TC001_AccountRegistrationTest:35 - Validating expected message
-2025-12-10 14:15:15 INFO  TC001_AccountRegistrationTest:40 - Error
-2025-12-10 14:15:15 DEBUG TC001_AccountRegistrationTest:41 - Debug
+2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:18 - Starting the acc_reg method
+2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:22 - Clicked on My Account
+2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register
+2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:27 - Filling details
+2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:37 - Validating expected message
+2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:50 - Test finished
+2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:20 - Starting the acc_reg method
+2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:24 - Clicked on My Account
+2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register
+2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:29 - Filling details
+2025-12-10 19:05:12 INFO  TC001_AccountRegistrationTest:39 - Validating expected message
+2025-12-10 19:05:12 INFO  TC001_AccountRegistrationTest:52 - Test finished
+2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:20 - Starting the acc_reg method
+2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:24 - Clicked on My Account
+2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register
+2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:29 - Filling details
+2025-12-10 19:05:14 INFO  TC001_AccountRegistrationTest:39 - Validating expected message
+2025-12-10 19:05:14 INFO  TC001_AccountRegistrationTest:52 - Test finished
+2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:20 - Starting the acc_reg method
+2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:24 - Clicked on My Account
+2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register
+2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:29 - Filling details
+2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:39 - Validating expected message
+2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:52 - Test finished

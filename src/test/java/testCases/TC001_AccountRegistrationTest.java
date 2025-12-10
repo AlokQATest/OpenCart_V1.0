@@ -2,6 +2,8 @@ package testCases;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert; 
 
 import org.testng.annotations.Test;
@@ -35,7 +37,7 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		
 		String confirmMsg = arp.getConfirmationMsg();
 		logger.info("Validating expected message");
-		if(confirmMsg.equals("Your Account Has Been Created!!")) {
+		if(confirmMsg.equals("Your Account Has Been Created!")) {
 			AssertJUnit.assertTrue(true);
 		}
 		else {

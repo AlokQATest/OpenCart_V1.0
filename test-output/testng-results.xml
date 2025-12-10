@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-10T18:49:36 IST" name="Suite" finished-at="2025-12-10T18:49:39 IST" duration-ms="3624">
+  <suite started-at="2025-12-10T19:19:52 IST" name="Suite" finished-at="2025-12-10T19:19:56 IST" duration-ms="3775">
     <groups>
     </groups>
-    <test started-at="2025-12-10T18:49:36 IST" name="Test" finished-at="2025-12-10T18:49:39 IST" duration-ms="3624">
+    <test started-at="2025-12-10T19:19:52 IST" name="Test" finished-at="2025-12-10T19:19:56 IST" duration-ms="3775">
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@2d7275fc]" started-at="2025-12-10T18:49:36 IST" name="setup" finished-at="2025-12-10T18:49:39 IST" duration-ms="3607" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@399f45b1]" started-at="2025-12-10T19:19:52 IST" name="setup" finished-at="2025-12-10T19:19:55 IST" duration-ms="2686" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,128 +20,14 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost/opencart/upload/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '24.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [192f6987-340a-4ad1-905f-a54b4a904327, get {url=http://localhost/opencart/upload/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.1, moz:accessibilityChecks: false, moz:buildID: 20251118022223, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 25.1.0, moz:processID: 1241, moz:profile: /var/folders/63/8vwftkn165d..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 192f6987-340a-4ad1-905f-a54b4a904327]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost/opencart/upload/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '24.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [192f6987-340a-4ad1-905f-a54b4a904327, get {url=http://localhost/opencart/upload/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.1, moz:accessibilityChecks: false, moz:buildID: 20251118022223, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 25.1.0, moz:processID: 1241, moz:profile: /var/folders/63/8vwftkn165d..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 192f6987-340a-4ad1-905f-a54b4a904327
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
-at testBase.BaseClass.setup(BaseClass.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@2d7275fc]" started-at="2025-12-10T18:49:39 IST" name="verify_account_registration" finished-at="2025-12-10T18:49:39 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost/opencart/upload/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '24.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [192f6987-340a-4ad1-905f-a54b4a904327, get {url=http://localhost/opencart/upload/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.1, moz:accessibilityChecks: false, moz:buildID: 20251118022223, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 25.1.0, moz:processID: 1241, moz:profile: /var/folders/63/8vwftkn165d..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 192f6987-340a-4ad1-905f-a54b4a904327]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost/opencart/upload/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost.
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.1', java.version: '24.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [192f6987-340a-4ad1-905f-a54b4a904327, get {url=http://localhost/opencart/upload/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.1, moz:accessibilityChecks: false, moz:buildID: 20251118022223, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 25.1.0, moz:processID: 1241, moz:profile: /var/folders/63/8vwftkn165d..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 192f6987-340a-4ad1-905f-a54b4a904327
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
-at testBase.BaseClass.setup(BaseClass.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@399f45b1]" started-at="2025-12-10T19:19:55 IST" name="verify_account_registration" finished-at="2025-12-10T19:19:55 IST" duration-ms="626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@2d7275fc]" started-at="2025-12-10T18:49:39 IST" name="tearDown" finished-at="2025-12-10T18:49:39 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@399f45b1]" started-at="2025-12-10T19:19:55 IST" name="tearDown" finished-at="2025-12-10T19:19:56 IST" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
