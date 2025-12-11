@@ -1,24 +1,102 @@
-2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:18 - Starting the acc_reg method
-2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:22 - Clicked on My Account
-2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register
-2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:27 - Filling details
-2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:37 - Validating expected message
-2025-12-10 18:55:35 INFO  TC001_AccountRegistrationTest:50 - Test finished
-2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:20 - Starting the acc_reg method
-2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:24 - Clicked on My Account
-2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register
-2025-12-10 19:05:11 INFO  TC001_AccountRegistrationTest:29 - Filling details
-2025-12-10 19:05:12 INFO  TC001_AccountRegistrationTest:39 - Validating expected message
-2025-12-10 19:05:12 INFO  TC001_AccountRegistrationTest:52 - Test finished
-2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:20 - Starting the acc_reg method
-2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:24 - Clicked on My Account
-2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register
-2025-12-10 19:05:13 INFO  TC001_AccountRegistrationTest:29 - Filling details
-2025-12-10 19:05:14 INFO  TC001_AccountRegistrationTest:39 - Validating expected message
-2025-12-10 19:05:14 INFO  TC001_AccountRegistrationTest:52 - Test finished
-2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:20 - Starting the acc_reg method
-2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:24 - Clicked on My Account
-2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register
-2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:29 - Filling details
-2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:39 - Validating expected message
-2025-12-10 19:19:55 INFO  TC001_AccountRegistrationTest:52 - Test finished
+2025-12-11 17:11:35 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:11:35 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:11:35 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:11:35 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:11:36 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:11:36 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:11:48 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:11:48 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:11:48 INFO  TC002_LoginTest:23 - Providing login credentials
+2025-12-11 17:14:08 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:14:08 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:14:08 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:14:08 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:14:08 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:14:08 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:14:11 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:14:11 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:14:11 INFO  TC002_LoginTest:23 - Providing login credentials
+2025-12-11 17:20:55 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:20:55 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:20:55 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:20:55 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:20:56 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:20:56 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:20:58 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:20:58 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:20:58 INFO  TC002_LoginTest:23 - Providing login credentials
+2025-12-11 17:22:25 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:22:25 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:22:25 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:22:25 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:22:25 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:22:25 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:22:27 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:22:27 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:23:20 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:23:20 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:23:20 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:23:20 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:23:21 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:23:21 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:23:22 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:23:22 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:28:53 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:28:53 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:28:53 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:28:53 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:28:54 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:28:54 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:28:56 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:28:56 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:28:56 INFO  TC002_LoginTest:23 - Providing login credentials
+2025-12-11 17:28:56 INFO  TC002_LoginTest:28 - Clicked on Login
+2025-12-11 17:29:01 INFO  TC002_LoginTest:32 - Validating successful login
+2025-12-11 17:29:01 INFO  TC002_LoginTest:38 - Login failed
+2025-12-11 17:31:13 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:31:13 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:31:13 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:31:13 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:31:14 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:31:14 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:31:16 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:31:16 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:31:16 INFO  TC002_LoginTest:23 - Providing login credentials
+2025-12-11 17:31:16 INFO  TC002_LoginTest:28 - Clicked on Login
+2025-12-11 17:31:21 INFO  TC002_LoginTest:33 - Validating successful login
+2025-12-11 17:31:21 INFO  TC002_LoginTest:39 - Login failed
+2025-12-11 17:34:37 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 17:34:37 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 17:34:38 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 17:34:38 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 17:34:38 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 17:34:38 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 17:34:40 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 17:34:40 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 17:34:40 INFO  TC002_LoginTest:23 - Providing login credentials
+2025-12-11 17:34:40 INFO  TC002_LoginTest:28 - Clicked on Login
+2025-12-11 17:34:45 INFO  TC002_LoginTest:33 - Validating successful login
+2025-12-11 18:07:24 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 18:07:24 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 18:07:24 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 18:07:24 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 18:07:24 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 18:07:24 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 18:07:26 INFO  TC002_LoginTest:17 - Clicked on My Account link
+2025-12-11 18:07:26 INFO  TC002_LoginTest:20 - Clicked on Login link
+2025-12-11 18:07:26 INFO  TC002_LoginTest:23 - Providing login credentials
+2025-12-11 18:07:26 INFO  TC002_LoginTest:28 - Clicked on Login
+2025-12-11 18:07:31 INFO  TC002_LoginTest:31 - Validating successful login
+2025-12-11 18:07:31 INFO  TC002_LoginTest:33 - Login was successful
+2025-12-11 18:13:32 INFO  TC001_AccountRegistrationTest:15 - Starting the acc_reg method
+2025-12-11 18:13:32 INFO  TC001_AccountRegistrationTest:19 - Clicked on My Account
+2025-12-11 18:13:32 INFO  TC001_AccountRegistrationTest:21 - Clicked on Register
+2025-12-11 18:13:32 INFO  TC001_AccountRegistrationTest:24 - Filling details
+2025-12-11 18:13:32 INFO  TC001_AccountRegistrationTest:34 - Validating expected message
+2025-12-11 18:13:32 INFO  TC001_AccountRegistrationTest:46 - Test finished
+2025-12-11 18:13:36 INFO  TC002_LoginTest:26 - Clicked on My Account link
+2025-12-11 18:13:36 INFO  TC002_LoginTest:29 - Clicked on Login link
+2025-12-11 18:13:36 INFO  TC002_LoginTest:32 - Providing login credentials
+2025-12-11 18:13:36 INFO  TC002_LoginTest:37 - Clicked on Login
+2025-12-11 18:13:41 INFO  TC002_LoginTest:40 - Validating successful login
+2025-12-11 18:13:41 INFO  TC002_LoginTest:42 - Login was successful
