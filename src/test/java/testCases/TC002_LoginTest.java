@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass{
@@ -21,13 +22,14 @@ public class TC002_LoginTest extends BaseClass{
 			prop = new Properties();
 			prop.load(file);
 			
+			//HomePage
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			logger.info("Clicked on My Account link");
 		
 			hp.clickLogin();
 			logger.info("Clicked on Login link");
-		
+			//LoginPage
 			LoginPage lp = new LoginPage(driver);
 			logger.info("Providing login credentials");
 			
@@ -35,10 +37,13 @@ public class TC002_LoginTest extends BaseClass{
 			lp.provide_Pass(prop.getProperty("password"));
 			lp.click_submit();
 			logger.info("Clicked on Login");
-			Thread.sleep(5000);
-			String msg = lp.confirm_msg();
+			
+			//MyAccountPage
+			MyAccountPage map = new MyAccountPage(driver);
+			
+			boolean msg = map.confirm_msg();
 			logger.info("Validating successful login");
-			if(msg.equals("My Account")){
+			if(msg==true){
 				logger.info("Login was successful");
 				Assert.assertTrue(true);
 			
@@ -47,6 +52,9 @@ public class TC002_LoginTest extends BaseClass{
 				Assert.assertTrue(false);
 			
 			}
+			
+			
+			map.clickLogout();
 		}
 		catch(Exception e) {
 			logger.info("got error");

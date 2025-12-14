@@ -15,7 +15,7 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath = "//input[@name = 'email']") WebElement input_email;
 	@FindBy(xpath = "//input[@name = 'password']") WebElement input_password;
 	@FindBy(xpath = "//button[normalize-space() = 'Login']") WebElement submit_login;
-	@FindBy(xpath = "//h1[normalize-space()='My Account']") WebElement confirmation_msg;
+	
 	
 	// Action methods
 	
@@ -31,13 +31,7 @@ public class LoginPage extends BasePage{
 		submit_login.click();
 	}
 	
-	public String confirm_msg() {
-		try {
-			return confirmation_msg.getText();
-		}
-		catch(Exception e){
-			return (e.getMessage());
-		}
+	
 		
 	}
-}
+
