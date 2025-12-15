@@ -29,7 +29,7 @@ public class TC003_LoginDataDrivenTest extends BaseClass{
 		
 		MyAccountPage map= new MyAccountPage(driver);
 		boolean targetPage = map.confirm_msg();
-		System.out.println(targetPage);
+		System.out.println(map.confirm_msg());
 		
 		if(expResult.equals("Valid")) {
 			if(targetPage==true) {

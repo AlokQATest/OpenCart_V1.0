@@ -18,11 +18,20 @@ public class MyAccountPage extends BasePage{
 	//Action method
 	
 	public boolean confirm_msg() {
+		boolean status = false;
+		try {
 		
-		return confirmation_msg.isDisplayed();
-	
+		if(confirmation_msg.isDisplayed()==true) {
+			status = true;
+			return status;
+		}else {
+			return status;
+		}
+		
+		}catch(Exception e) {
+			return status;
+		}
 	}
-	
 //	public void clickMyacc() {
 //		link_myacc.click();
 //	}
