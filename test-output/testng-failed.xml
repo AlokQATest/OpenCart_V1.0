@@ -9,7 +9,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testLogin" invocation-numbers="0"/>
+          <include name="testLogin" invocation-numbers="1 2 5"/>
         </methods>
       </class> <!-- testCases.TC003_LoginDataDrivenTest -->
     </classes>

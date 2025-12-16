@@ -11,7 +11,7 @@ import utilities.DataProviders;
 
 public class TC003_LoginDataDrivenTest extends BaseClass{
 	
-	@Test (dataProvider="logindata", dataProviderClass=DataProviders.class) //getting data provider from different package
+	@Test (dataProvider="logindata", dataProviderClass=DataProviders.class, groups="DataDriven") //getting data provider from different package
 	public void testLogin(String email, String pass, String expResult) {
 		try {	
 			

@@ -21,7 +21,7 @@ public class BaseClass {
 	public Logger logger;
 	FileInputStream file;
 	public Properties prop;
-	@BeforeClass
+	@BeforeClass (groups= {"Sanity", "Regression", "Master", "DataDriven"})
 	@Parameters({"os", "browser"})
 	public void setup(String os, String br) throws IOException {
 		
@@ -44,7 +44,7 @@ public class BaseClass {
 		driver.get(prop.getProperty("appURL"));
 		driver.manage().window().maximize();
 	}
-	@AfterClass
+	@AfterClass (groups= {"Sanity", "Regression", "Master", "DataDriven"})
 	public void tearDown() {
 		System.out.println("Ending point");
 		driver.quit();

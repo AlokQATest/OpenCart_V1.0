@@ -15,7 +15,7 @@ public class TC002_LoginTest extends BaseClass{
 	public FileInputStream file;
 	public Properties prop;
 	
-	@Test
+	@Test (groups= {"Sanity", "Master"})
 	public void login_Test() {
 		try {
 			file = new FileInputStream("./src/test/resources/config.properties");
