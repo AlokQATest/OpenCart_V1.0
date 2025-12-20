@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" thread-count="5">
   
+  <listeners>
+  	<listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
   <groups>
   	<run>
   		<include name="Master"/>
@@ -12,6 +15,8 @@
   </groups>
   
   <test name="Test2">
+
+  
     <parameter name="os" value="macOS"/>
     <parameter name="browser" value="chrome"/>
 
