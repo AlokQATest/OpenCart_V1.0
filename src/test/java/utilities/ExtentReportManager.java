@@ -73,8 +73,6 @@ public class ExtentReportManager implements ITestListener{
 	  }
 	  
 	 
-
-		 
 	   public void onFinish(ITestContext context) {
 		    report.flush();
 		  }
