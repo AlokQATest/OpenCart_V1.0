@@ -59,8 +59,4 @@ public class AccountRegPage extends BasePage{
 		}
 	}
 	
-	
-	
-	
-	
 }

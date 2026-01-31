@@ -1,4 +1,4 @@
-package testCases;
+package testCases.Functional;
 
 import java.io.FileInputStream;
 import java.util.Properties;

@@ -1,4 +1,4 @@
-package testCases;
+package testCases.Functional;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

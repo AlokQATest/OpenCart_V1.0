@@ -11,9 +11,15 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 	// Locators
-	@FindBy(xpath = "//span[normalize-space()='My Account']") WebElement linkMyaccount;
+	
+	@FindBy(xpath = "//span[normalize-space()= 'My Account']") WebElement linkMyaccount;
 	@FindBy(xpath = "//a[normalize-space() = 'Register']") WebElement linkRegister;
 	@FindBy(xpath = "//a[normalize-space() = 'Login']") WebElement linkLogin;
+	
+	// Search product locator
+	@FindBy(xpath = "//input[@name='search']") WebElement search_bar;
+	@FindBy(xpath = "//button[@class='btn btn-light btn-lg']") WebElement submit;
+	
 	
 	// Action methods
 	
@@ -27,6 +33,12 @@ public class HomePage extends BasePage {
 	
 	public void clickLogin() {
 		linkLogin.click();
+	}
+	
+	//search product method
+	public void search_products(String product_name) {
+		search_bar.sendKeys(product_name);
+		submit.click();
 	}
 	
 }

@@ -15,6 +15,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import testBase.BaseClass;
+
 public class ExtentReportManager implements ITestListener{
 	
 	public ExtentSparkReporter Sparkreporter; // UI of the report
@@ -52,28 +54,30 @@ public class ExtentReportManager implements ITestListener{
 	  }
 	 
 	 
-	 public void onTestSuccess(ITestResult result) {
+	  public void onTestSuccess(ITestResult result) {
 		 test = report.createTest(result.getTestClass().getName()); // create new entry in report
 		 test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		 test.log(Status.PASS, result.getName()+ " Testcase got successfully executed"); //update status Pass/Fail/Skip
 	  }
 
 	  
-	 public void onTestFailure(ITestResult result) {
+	  public void onTestFailure(ITestResult result) {
 	    test = report.createTest(result.getName());
 	    test.assignCategory(result.getMethod().getGroups());
 	    test.log(Status.FAIL, result.getName() + " Testcase got failed" );
+	    test.log(Status.INFO, result.getThrowable().getMessage());
+	   
+	    	//String imgPath = new BaseClass().capturescreen(result.getName());
+	    
 	  }
 
-	  
 	  public void onTestSkipped(ITestResult result) {
 	    test = report.createTest(result.getName());
 	    test.assignCategory(result.getMethod().getGroups());
 	    test.log(Status.SKIP, result.getName()+ " Testcase got skipped");
 	  }
 	  
-	 
-	   public void onFinish(ITestContext context) {
+	  public void onFinish(ITestContext context) {
 		    report.flush();
 		  }
 }

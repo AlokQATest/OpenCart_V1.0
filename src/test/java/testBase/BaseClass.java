@@ -40,15 +40,15 @@ public class BaseClass {
 		default : System.out.println("Invalid browser"); return;
 		}
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(prop.getProperty("appURL"));
 		driver.manage().window().maximize();
 	}
-	@AfterClass (groups= {"Sanity", "Regression", "Master", "DataDriven"})
+	/*@AfterClass (groups= {"Sanity", "Regression", "Master", "DataDriven"})
 	public void tearDown() {
 		System.out.println("Ending point");
 		driver.quit();
-	}
+	}*/
 	
 	public String randomString() {
 		String randomStr = RandomStringUtils.randomAlphabetic(5);

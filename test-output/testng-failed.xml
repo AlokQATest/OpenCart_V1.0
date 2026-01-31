@@ -4,14 +4,18 @@
   <test thread-count="5" name="Test2(failed)">
     <parameter name="os" value="macOS"/>
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC003_LoginDataDrivenTest">
+      <class name="testCases.Workflows.CheckoutWorkflowTest_withoutLogin">
         <methods>
-          <include name="tearDown"/>
+          <include name="checkout_complete_flow"/>
           <include name="setup"/>
-          <include name="testLogin" invocation-numbers="1 2 5"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginDataDrivenTest -->
+      </class> <!-- testCases.Workflows.CheckoutWorkflowTest_withoutLogin -->
     </classes>
   </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
